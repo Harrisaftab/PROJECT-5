@@ -1,0 +1,292 @@
+* {
+   background-color: #ffffff;
+   /* background-color: #0f0f0f; */
+   margin: 0;
+   padding: 0;
+}
+
+.parent {
+
+   margin: 10 10 1000 10;
+   /* border: 2px solid black; */
+
+}
+
+.parent-2 {
+   margin-right: 40px;
+   display: flex;
+}
+
+.head {
+   display: flex;
+   /* justify-content: space-between; */
+   height: 45px;
+   /* border: 2px solid black; */
+}
+
+.btn {
+   padding-left: 40px;
+   border-spacing: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 4px;
+   margin: 15px;
+   align-items: center;
+   display: flex;
+   /* justify-content: space-between; */
+   /* border: 2px solid black; */
+}
+
+.side-bar {
+
+   align-items: center;
+
+   display: flex;
+   width: 63px;
+   height: 34vh;
+   /* border: 2px solid black; */
+}
+
+.main {
+   display: flex;
+   margin: 10px;
+   width: 100%;
+   /* border: 2px solid black; */
+
+}
+
+.child-1 {
+   background-repeat: no-repeat;
+
+background-image: url(./IMG/menu.PNG);
+
+   padding: 20px;
+   height: 0px;
+   width: 80px;
+   /* border: 2px solid black; */
+}
+
+.child-2 {
+
+   background-image: url(./IMG/Capture-12.PNG);
+   background-repeat: no-repeat;
+
+   padding: 20px;
+   height: 0px;
+   width: 110px;
+   /* border: 2px solid black; */
+}
+
+.search {
+   margin-top: 5px;
+   margin-left: 70px;
+   width: 590px;
+   height: 35px;
+
+
+   border-radius: 20px;
+}
+
+.child-3 {
+   
+   
+   /* padding: 20px; */
+   height: 10px;
+   /* width: 500px; */
+   /* border: 2px solid black; */
+}
+
+.child-4 {
+   background-image: url(./IMG/Capture-33.PNG);
+   background-repeat: no-repeat;
+
+   padding: 20px;
+   height: 10px;
+   width: 500px;
+   /* border: 2px solid black; */
+}
+
+.child-5 {
+   margin-right: 5px;
+   border-radius: 40px;
+   /* padding: 0px 145px 120px 10px; */
+   border: 1px solid black;
+}
+
+.child-6 {
+   border-radius: 40px;
+   margin-right: 5px;
+   /* margin: 10px; */
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-7 {
+   margin-right: 5px;
+   /* margin: 10px; */
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+   border-radius: 40px;
+}
+
+.child-8 {
+   border-radius: 40px;
+   margin-right: 5px;
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-9 {
+   margin-right: 5px;
+   border-radius: 40px;
+   /* margin: 100px; */
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-10 {
+   margin-right: 5px;
+   border-radius: 40px;
+   /* margin: 100px; */
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-11 {
+   margin-right: 5px;
+   border-radius: 40px;
+   /* margin: 100px; */
+   /* padding: 74px  140px 59px; */
+
+   border: 1px solid black;
+}
+
+.child-12 {
+   margin-right: 5px;
+   /* margin: 100px; */
+   border-radius: 40px;
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-13 {
+   margin-right: 5px;
+   /* margin: 100px; */
+   border-radius: 40px;
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-14 {
+   margin-right: 5px;
+   border-radius: 40px;
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+}
+
+.child-15 {
+   margin-right: 5px;
+   /* padding: 0px 145px 165px; */
+   border: 1px solid black;
+   border-radius: 40px;
+}
+
+.child-16 {
+   margin-right: 5px;
+   /* padding: 0px 145px 165px; */
+   border-radius: 40px;
+   border: 1px solid black;
+}
+
+.footer {
+   border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+   background-color: rgb(31, 28, 28);
+}
+
+.body {
+
+   background-color: rgb(31, 28, 28);
+}
+
+.head {
+   background-color: rgb(31, 28, 28);
+   justify-content: space-between;
+   display: flex;
+   border: 3px solid black;
+   width: 100%vh;
+   height: 80px;
+
+
+}
+
+.left-bar {
+   background-color: rgb(49, 43, 43);
+   display: flex;
+   width: 100%vh;
+   height: 100vh;
+   border: 3px solid black;
+}
+.parent-1{
+   display: flex;
+}
+
+.main {
+   
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(49, 43, 43);
+   height: 300px;
+  
+   width: 1200px;
+   border: px solid black;
+}
+
+.child-1 {
+   
+   padding: 1px 50px 50px 1px;
+   /* background-image:url(./IMG/menu-icon-style-free-vector.jpg); */
+
+/* border: 1px solid black;
+   align-items: center;
+  
+
+   
+}
+
+.child-2 {
+   background-image: url(./IMG/Capture.PNG);
+   
+   height: 70px;
+   width: 280px;
+}
+
+.child-3 {}
+
+.child-4 {}
+
+.child-5 {}
+
+.child-6 {}
+
+.child-7 {}  */
